@@ -1,0 +1,23 @@
+{
+  "private": false,
+  "name": "nextjs-pwa",
+  "version": "0.0.1",
+  "author": {
+    "name": "Byurhan Beyzat",
+    "url": "https://byurhanbeyzat.com/"
+  },
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "yarn build && next export"
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^2.1.1",
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
